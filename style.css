@@ -38,8 +38,8 @@ body div {
 
 #logo{
   padding: 20px;
-  margin: 20px ;
-  align-items: baseline;
+  margin: 10px ;
+  float: left;
   height: 30px;
 }
 
@@ -50,6 +50,7 @@ body div {
   border: 1.5px solid white;
   border-radius: 5px;
   text-decoration: none;
+  float: right;
 }
 
 nav {
