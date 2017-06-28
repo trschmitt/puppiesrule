@@ -13,10 +13,13 @@ colors:
     dark blue - #046c97
 */
 
-
-body{
+html {
   background-image: url(img/pattern.jpg);
   background-attachment: fixed;
+}
+
+body{
+  background-color: white;
   border: 4px solid #ffd24a;
   border-radius: 5px;
   margin: 35px 100px;
@@ -24,10 +27,6 @@ body{
   line-height: 1.6;
 }
 
-body div {
-  margin: 0px 0px;
-  background-color: white;
-}
 
 #site_header{
   background-color: orange;
@@ -79,21 +78,23 @@ table{
   width: 100%;
 }
 
-tbody img{
-  height: 70px;
-  margin: 10px;
-}
-
 thead tr td {
   border: 1px solid black;
-  margin: 0px 0px;
   padding: 10px;
   background-color: blue;
   color: white
 }
+
+tbody img{
+  width: 50px;
+}
+
 tbody tr td {
   border: 1px solid blue;
-  padding: 3px
+  /*padding: 5px 10px;*/
+}
+tbody td {
+  padding: 5px 10px;
 }
 
 form {
