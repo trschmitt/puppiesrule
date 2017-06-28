@@ -47,7 +47,7 @@ body div {
   padding: 5px 5px;
   margin: 10px 10px;
   color: white;
-  border: 1px solid white;
+  border: 1.5px solid white;
   border-radius: 5px;
   text-decoration: none;
 }
@@ -79,7 +79,7 @@ table{
 }
 
 tbody img{
-  height: 60px;
+  height: 70px;
   margin: 10px;
 }
 
@@ -108,4 +108,9 @@ form {
   padding: 15px 15px;
   margin: 10px 10px;
   border-radius: 5px;
+  font-size:
+}
+
+input{
+  padding: 10px;
 }
