@@ -14,7 +14,7 @@ colors:
 */
 
 
-html{
+body{
   background-image: url(img/pattern.jpg);
   background-attachment: fixed;
   border: 4px solid #ffd24a;
@@ -24,7 +24,7 @@ html{
   line-height: 1.6;
 }
 
-body {
+body div {
   margin: 0px 0px;
   background-color: white;
 }
@@ -61,7 +61,7 @@ h2, h3 {
 }
 
 #page_content{
-  margin: 10px 10px;
+  padding: 10px;
 }
 
 hr {
@@ -75,8 +75,7 @@ ul {
 
 table{
   border-collapse: collapse;
-  margin: 20px 20px;
-  width: 750px
+  width: 100%;
 }
 
 tbody img{
@@ -96,9 +95,17 @@ tbody tr td {
   padding: 3px
 }
 
+form {
+  background-color: #eee;
+  padding: 10px;
+  font-weight: bold;
+}
 
-#id{
+.name {
   border: 1px solid white;
   background-color: orange;
-  
+  color: white;
+  padding: 15px 15px;
+  margin: 10px 10px;
+  border-radius: 5px;
 }
